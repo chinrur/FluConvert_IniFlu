@@ -9,9 +9,9 @@
 ● Microsoft Office 365 or Office 2019 or later (Excel 64-bit)  
 ● Java 10 or later (64-bit)  
 ## 1.3 Installation
-Go to EMBOSS website and download ftp://emboss.open-bio.org/pub/EMBOSS/windows/mEMBOSS-6.5.0.0-setup.exe
-Go to MAFFT website and download https://mafft.cbrc.jp/alignment/software/mafft-7.450-win64-signed.zip
-Unzip mafft-7.450-win64-signed.zip to absolute path C:\mEMBOSS
+Go to EMBOSS website and download ftp://emboss.open-bio.org/pub/EMBOSS/windows/mEMBOSS-6.5.0.0-setup.exe  
+Go to MAFFT website and download https://mafft.cbrc.jp/alignment/software/mafft-7.450-win64-signed.zip  
+Unzip mafft-7.450-win64-signed.zip to absolute path C:\mEMBOSS  
 ```
 1. Install mEMBOSS-6.5.0.0-setup.exe in the absolute path C:\mEMBOSS
 2. Install mafft-win.exe in the absolute path C:\mEMBOSS
