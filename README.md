@@ -4,7 +4,7 @@
 ● Microsoft Windows XP (64-bit) or later operating system  
 ● Microsoft Office 2016 or later (Excel 64-bit)  
 ● Java 6 or later  
-## 1.2 Minimum system requirements
+## 1.2 Recommended system requirements
 ● Microsoft Windows 10 1903 or later operating system  
 ● Microsoft Office 365 or Office 2019 or later (Excel 64-bit)  
 ● Java 10 or later (64-bit)  
