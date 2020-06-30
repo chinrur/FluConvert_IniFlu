@@ -19,6 +19,27 @@ Unzip mafft-7.450-win64-signed.zip to absolute path C:\mEMBOSS
 4. Copy IniFlu_1.0.xlsm file in the absolute path C:\Flutures\FluConvert\Output
 ```
 ## 2. Usage
+## Data Retrieval
+```
+● Sequence fasta file from NCBI-IVD (National Center for Biotechnology Information Influenza Virus Database)
+1.Go to NCBI-IVD website https://www.ncbi.nlm.nih.gov/genomes/FLU/Database/nph-select.cgi?go=database 
+2.Select sequence type: "Nucleotide" → Define search set → click "Add query" button
+3.Click "Customize FASTA defline" → Defline is in the format of ">{accession} {strain} {segment} {serotype} {host}"
+4.Click "Download results" to retrieve the sequence data
+ 
+● Sequence fasta file from GISAID-EpiFlu (Global Initiative on Sharing All Influenza Data) 
+1.Go to GISAID-EpiFlu website https://www.gisaid.org/ → Click "Login"
+2.Register a account to login→ Click "EpiFlu" button
+2.Define search patterns → Click the "Direct submissions to GISAID" checkbox → Click "Search" button 
+3.Click all strains checkbox → Click "Download" button
+4.When popup the Download box, select "Sequences (DNA) as FASTA" → click DNA "all"
+5.Defline FASTA Header with "Isolate IDEPI Isolate name Segment number HxNy host"
+(e.g. HxNy as H1N1) → Click "Download" button
+
+● Sequence fasta file from Other databases or your sequence data
+FASTA Header should be {Acc number}_{Influenza Type}_{Host}_{Region}_{Strain}_{Year}_{Subtype}_{Host}
+(e.g. CY009444_A_human_PuertoRico_8_1934_H1N1_human)
+```
 ## Sequence processing
 ```
 1.Sequence fasta file (for example: H5N2.fasta) put into C:\Flutures\FluConvert\Input folder
