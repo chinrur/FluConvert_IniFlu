@@ -19,7 +19,7 @@ Unzip mafft-7.450-win64-signed.zip to absolute path C:\mEMBOSS
 4. Copy IniFlu_1.0.xlsm file in the absolute path C:\Flutures\FluConvert\Output
 ```
 ## 2. Usage
-## Data Retrieval
+## Prepare sequence data
 ```
 ● Sequence fasta file from NCBI-IVD (National Center for Biotechnology Information Influenza Virus Database)
 1.Go to NCBI-IVD website https://www.ncbi.nlm.nih.gov/genomes/FLU/Database/nph-select.cgi?go=database 
